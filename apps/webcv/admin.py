@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import ProfesionalCV  
+# Asegúrate de que el nombre del modelo esté correcto
 
-# Register your models here.
+admin.site.register(ProfesionalCV)

@@ -20,8 +20,9 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav" style= "background-color: #292F33;">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">PaulaCLD</span>
+                <span class="d-block d-lg-none">PaulaCLD </span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-5" src="{% static 'assets/img/mio.jpg' %}" alt="..." /></span>
+                
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -42,8 +43,8 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        <p style= "fond-size: 50px" >Daniela Paula </p>
-                        <span class="text" style="color: rosybrown;">Cartagena Limachi</span>
+                        <p style= "fond-size: 50px" >Daniela Paula</p>
+                        <span class="text" style="color: rosybrown;">Cartagena Limachi </span>
                         <br>
                     </h1>
                     <br>
@@ -51,7 +52,10 @@
                         EL ALTO ● LA PAZ ● BOLIVIA ● (591) 61153810 ●
                         <a href="mailto:danpau4gpnp@gmail.com" style="color: salmon;">danpau4gpnp@mail.com</a>
                     </div>
+                    {{ perfil.email }} <b> <br>
+                    {{ perfil.carrera }}
                     <p class="lead mb-5" style="color: black; font-family: georgia, sans-serif;"> Estudiante de ingeniería de sistemas, en proceso de búsqueda de nuevas oportunidades laborales. Me considero una persona proactiva, apasionada por las nuevas experiencias y siempre dispuesta a aprender cosas nuevas. He sido participe en proyectos académicos en los que he demostrado habilidades para el trabajo en equipo, el liderazgo y la resolución de problemas. Mi objetivo es poder aplicar todo lo aprendido en mi carrera y seguir creciendo profesionalmente, mientras aporto al crecimiento de la organización que me brinde la oportunidad de demostrar mi capacidad. Gracias por su tiempo y consideración.</p>
+                    {{ perfil.celular }}
                     <p style="color: black">−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−− </p>
                     <div class="social-icons">
                         <a class="social-icon" href="#https://www.linkedin.com/in/daniela-paula-cartagena-limachi-a8929320a"><i class="fab fa-linkedin-in"></i></a>
@@ -108,6 +112,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0"> 🩸 CERTIFICADO DE PRIMEROS AUXILIOS</h3>
+                            {{ perfil.apellidos }}
                             <div class="subheading mb-3" style= "color: rosybrown"> Plataforma Edutin Academy </div>
                             <div style="color: black; font-family: georgia, sans-serif; font-size: 20px;"> - El curso de primeros auxilios ha sido realizado de manera online. Capacitación de 4 meses constantes.</div>                            <p>GPA: 3.23</p>
                         </div>
@@ -124,6 +129,7 @@
                             <h3 class="mb-0"> 💵 CERTIFICADO EN FINANZAS </h3>
                             <div class="subheading mb-3" style= "color: rosybrown"> ● Plataforma Edutin Academy</div>
                             <div style="color: black; font-family: georgia, sans-serif; font-size: 20px;"> - Certificado otorgado de manera virtual. Duración de 6 meses constantes de capacitación.</div>                            <p>GPA: 3.23</p>
+                            {{ perfil.nombres }}
                         </div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
